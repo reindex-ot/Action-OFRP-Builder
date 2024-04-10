@@ -1,4 +1,4 @@
-# GitHub ActionsでOrangeFoxRecoveryを自動でビルド
+# GitHub ActionsでOrangeFox Recoveryを自動でビルド
 
 これは日本語化と余分な箇所の削除を行った非公式なバージョンです。
 - Support OrangeFox, [TWRP](https://github.com/azwhikaru/Action-TWRP-Builder) is here
