@@ -1,4 +1,4 @@
-name: Recovery Build
+name: リカバリーのビルド
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
         required: true
         default: 'https://gitlab.com/OrangeFox/sync.git'
       MANIFEST_BRANCH:
-        description: 'MANIFESTのブランチ'
+        description: 'Manifestのブランチ'
         required: true
         default: '11.0'
       DEVICE_TREE_URL:
@@ -24,21 +24,21 @@ on:
         required: true
         default: 'device/'
       COMMON_TREE_URL:
-        description: 'COMMONツリーURL (commonツリーがない場合は空白)'
+        description: 'CommonツリーのURL (commonツリーがない場合は空白)'
         required: false
       COMMON_PATH:
-        description: 'COMMONパス (commonツリーがない場合は空白)'
+        description: 'Commonのパス (commonツリーがない場合は空白)'
         required: false
       DEVICE_NAME:
         description: 'デバイス名'
         required: true
         default: ''
       MAKEFILE_NAME:
-        description: 'MAKEFILEの名前'
+        description: 'Makefileの名前'
         required: true
         default: 'twrp_'
       BUILD_TARGET:
-        description: 'BUILDターゲット'
+        description: 'ビルドターゲット'
         required: true
         default: 'recovery'
 
