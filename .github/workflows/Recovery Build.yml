@@ -4,41 +4,41 @@ on:
   workflow_dispatch:
     inputs:
       SYNC_URL:
-        description: 'SYNC_URL'
+        description: '同期するURL'
         required: true
         default: 'https://gitlab.com/OrangeFox/sync.git'
       MANIFEST_BRANCH:
-        description: 'MANIFEST_BRANCH'
+        description: 'MANIFESTのブランチ'
         required: true
         default: '11.0'
       DEVICE_TREE_URL:
-        description: 'DEVICE_TREE_URL'
+        description: 'デバイスツリーのURL'
         required: true
         default: 'https://github.com/OrangeFoxRecovery/device_xiaomi_garden'
       DEVICE_TREE_BRANCH:
-        description: 'DEVICE_TREE_BRANCH'
+        description: 'デバイスツリーのブランチ'
         required: true
         default: 'fox_11.0_Q'
       DEVICE_PATH:
-        description: 'DEVICE_PATH'
+        description: 'デバイスのパス'
         required: true
-        default: 'device/xiaomi/garden'
+        default: 'device/'
       COMMON_TREE_URL:
-        description: 'COMMON_TREE_URL (if no common tree, leave blank)'
+        description: 'COMMONツリーURL (commonツリーがない場合は空白)'
         required: false
       COMMON_PATH:
-        description: 'COMMON_PATH (if no common tree, leave blank)'
+        description: 'COMMONパス (commonツリーがない場合は空白)'
         required: false
       DEVICE_NAME:
-        description: 'DEVICE_NAME'
+        description: 'デバイス名'
         required: true
-        default: 'garden'
+        default: ''
       MAKEFILE_NAME:
-        description: 'MAKEFILE_NAME'
+        description: 'MAKEFILEの名前'
         required: true
-        default: 'twrp_garden'
+        default: 'twrp_'
       BUILD_TARGET:
-        description: 'BUILD_TARGET'
+        description: 'BUILDターゲット'
         required: true
         default: 'recovery'
 
