@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'デバイスツリーのURL'
         required: true
-        default: 'https://github.com/OrangeFoxRecovery/device_xiaomi_garden'
+        default: ''
       DEVICE_TREE_BRANCH:
         description: 'デバイスツリーのブランチ'
         required: true
