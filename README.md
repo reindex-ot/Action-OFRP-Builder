@@ -1,26 +1,29 @@
-# Build Recovery using Github Actions
+# GitHub Actionsでカスタムリカバリーのビルド
 
+これは日本語化と余分な箇所の削除を行った非公式なバージョンです。
 - Support OrangeFox, [TWRP](https://github.com/azwhikaru/Action-TWRP-Builder) is here
 - [中文说明](./README_CN.md)
 
 ---
 
-## Thanks to
-- All contributors
+## 感謝
+- すべての貢献者の方々
 
 ---
 
-## Release Notes
+## リリースノート
 ```
 = 2023/04/20
 - The first available version is submitted.
+= 2024/04/11
+- アクションの説明を日本語化と元々あったデバイスの記述を削除
 ```
 
 -----
 
-## Parameter Description
+## パラメーターの説明
 
-| Name | Description | Example |
+| 名前 | 説明 | 例 |
 | ------------ | -------------------- | ------------ |
 | `SYNC_URL` | Script specified by OrangeFox | https://gitlab.com/OrangeFox/sync.git |
 | `MANIFEST_BRANCH` | Source branch | 12.1                                                         |
@@ -35,7 +38,7 @@
 
 -----
 
-## How to use
+## 使い方
 ```
 For example, your username is: JohnSmith
 ```
